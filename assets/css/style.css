@@ -958,6 +958,15 @@ nav ul ul ul li {
   text-align: center;
 }
 
+#products-slider {
+  margin-top: 10px;
+  width: 100% !important;
+  margin-left: 0% !important;
+  margin-right: 0% !important;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
 }
 
 /* Menu Images */
