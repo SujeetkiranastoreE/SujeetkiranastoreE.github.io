@@ -39,6 +39,9 @@ header div:nth-of-type(3){
 header div:nth-of-type(4){
     flex: auto;
 }
+.hideable-desktop{
+  display: none;
+}
 
 .nav , .navlink, .nav-link,.social-icons{
     text-align: center;
@@ -966,6 +969,14 @@ nav ul ul ul li {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
+
+.hideable{
+  display: none !important;
+}
+.hideable-desktop{
+  display: block !important;
+}
+
 
 }
 
