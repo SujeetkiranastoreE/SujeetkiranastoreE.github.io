@@ -858,7 +858,7 @@ nav ul ul ul li {
 	/* Stylinf the toggle lable */
 	.toggle {
 		display: block;
-		background-color: #254441;
+		background-color: #72171E;
 		padding:14px 20px;
 		color:#FFF;
 		font-size:17px;
@@ -942,7 +942,7 @@ nav ul ul ul li {
 
 	nav ul li {
 		display:block;
-		width: 94%;
+		width: 100%;
   }
   .modal-img {
     width: 100% !important;
