@@ -938,7 +938,7 @@ nav ul ul ul li {
 }
 
 
-@media all and (max-width : 400px) {
+@media all and (max-width : 550px) {
 
 	nav ul li {
 		display:block;
