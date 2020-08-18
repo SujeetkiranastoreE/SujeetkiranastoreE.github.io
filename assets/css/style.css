@@ -772,6 +772,10 @@ nav:after {
 [id^='drop'] {
 	display: none;
 }
+.icon,.dropdown-icon{
+	float:right;
+}
+
 
 /* Removing padding, margin and "list-style" from the "ul",
  * and adding "position:reltive" */
