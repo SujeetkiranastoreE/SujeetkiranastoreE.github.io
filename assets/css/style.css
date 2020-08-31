@@ -101,13 +101,13 @@ section{
 .toggle{
   position: relative;
 }
-.dot:before{
+.dot{
     width: 7px;
     height: 7px;
     border-radius: 50%;
     position: absolute;
     margin-top: 6px;
-    margin-left: 20%;
+    margin-left: 5%;
     background: red;
     z-index:2;
 }
@@ -116,10 +116,9 @@ section{
   content:' ';
   position: absolute;
   z-index:1;
-  right:12px;
-  bottom:8px;
-  width:30px;
-  height:30px;
+  right:0px;
+  width: 7px;
+  height: 7px;
   background-color: #ff4200;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0,0,0,.3) inset;
@@ -129,11 +128,11 @@ section{
 @keyframes ripple {
    0% {
     opacity:1;
-    transform: scale(0);
+    transform: scale(1);
   }
   100% {
     opacity: 0;
-    transform: scale(2);
+    transform: scale(6);
   }
 }
 
